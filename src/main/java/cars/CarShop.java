@@ -10,12 +10,12 @@ public class CarShop {
     private int maxPrice;
     public static List<Car> CarsForSell = new ArrayList<>();
 
-
-
-
-
-
+    public CarShop(String traderName, int maxPrice) {
+        this.traderName = traderName;
+        this.maxPrice = maxPrice;
     }
+
+}
 
 
 

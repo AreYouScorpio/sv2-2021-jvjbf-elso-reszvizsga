@@ -22,7 +22,11 @@ public class CarShop {
     }
 
     boolean addCar(Car car){
-        return cars.add(car);
+        if (car.price<maxPrice) {
+            cars.add(car);
+            return true;
+        }
+        return false;
     }
 
 

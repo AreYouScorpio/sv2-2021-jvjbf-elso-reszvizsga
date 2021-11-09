@@ -8,7 +8,7 @@ import java.util.List;
 public class CarShop {
     private String traderName;
     private int maxPrice;
-    public static List<Car> cars = new ArrayList<>();
+    public static List<Car> CarsForSell = new ArrayList<>();
 
 
 

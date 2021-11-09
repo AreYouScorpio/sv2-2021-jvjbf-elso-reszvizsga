@@ -51,7 +51,7 @@ public class CarShop {
         // int number = scanner.nextInt();
         int piecesOK=0;
         for (int i=0; i<getCarsForSell().size();i++) {
-             if (price > getCarsForSell().get(i).getPrice()) {
+             if (price >= getCarsForSell().get(i).getPrice()) {
                  piecesOK++;
              };
         }

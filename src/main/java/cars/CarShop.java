@@ -1,5 +1,7 @@
 package cars;
 
+import jdk.internal.org.objectweb.asm.tree.InsnList;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +20,7 @@ public class CarShop {
         return maxPrice;
     }
 
-    public List<Car> getCars() {
+    public List<Car> getCarsForSell() {
         return cars;
     }
 
@@ -32,6 +34,8 @@ public class CarShop {
 
 
 
+
+
     public CarShop(String traderName, int maxPrice, List<Car> cars) {
         this.traderName = traderName;
         this.maxPrice = maxPrice;
@@ -41,4 +45,6 @@ public class CarShop {
 
 
     }
+
+
 }

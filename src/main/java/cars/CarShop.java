@@ -21,12 +21,12 @@ public class CarShop {
     }
 
     public List<Car> getCarsForSell() {
-        return cars;
+        return CarsForSell;
     }
 
     boolean addCar(Car car){
         if (car.price<maxPrice) {
-            cars.add(car);
+            CarsForSell.add(car);
             return true;
         }
         return false;
@@ -39,7 +39,7 @@ public class CarShop {
     public CarShop(String traderName, int maxPrice, List<Car> cars) {
         this.traderName = traderName;
         this.maxPrice = maxPrice;
-        this.cars = cars;
+        this.CarsForSell = cars;
 
 
 

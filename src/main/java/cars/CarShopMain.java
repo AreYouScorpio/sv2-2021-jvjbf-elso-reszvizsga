@@ -37,7 +37,7 @@ public static void main(String[] args) {
 
         System.out.println(carShop.carsWithBrand("Toyota").size()); //2
 
-        // System.out.println(carShop.carsWithBrand("BMW").size()); //0
+        System.out.println(carShop.carsWithBrand("BMW").size()); //0
 
 
 

@@ -3,7 +3,7 @@ package cars;
 public class Car {
     private String type;
     private double ccm;
-    public enum Color {RED, BLACK, BLUE, GREY }
+    public  enum Color {RED, BLACK, BLUE, GREY }
     int price;
 
     public Car(String type, double ccm, Color color,  int price) {
@@ -25,7 +25,8 @@ public class Car {
     }
 
     public int decreasePrice(int percent) {
-        return price*(1-(percent/100));
+        price=(int)(price*(1-(percent/100.0)));
+        return price;
     }
 
 

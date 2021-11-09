@@ -12,6 +12,18 @@ public class CarShop {
 
 
 
+
+
+
+    }
+
+
+
+
+
+
+
+
     public String getTraderName() {
         return traderName;
     }

@@ -31,8 +31,7 @@ public static void main(String[] args) {
         carShop.addCar(car4);
 
         System.out.println(carShop.sumCarPrice()); //6270000
-
-        // System.out.println(carShop.numberOfCarsCheaperThan(2_000_000)); //1
+        System.out.println(carShop.numberOfCarsCheaperThan(2_000_000)); //1
 
         // System.out.println(carShop.numberOfCarsCheaperThan(1_000_000)); //0
 

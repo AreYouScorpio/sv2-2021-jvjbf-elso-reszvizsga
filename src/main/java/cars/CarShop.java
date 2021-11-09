@@ -4,6 +4,7 @@ package cars;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class CarShop {
     private String traderName;
@@ -44,6 +45,19 @@ public class CarShop {
         return totalPrice;
     }
 
+    int numberOfCarsCheaperThan(int price){
+        System.out.println("Kérek egy árat: ");
+        //Scanner scanner = new Scanner(System.in);
+        // int number = scanner.nextInt();
+        int piecesOK=0;
+        for (int i=0; i<getCarsForSell().size();i++) {
+             if (price < getCarsForSell().get(i).getPrice()) {
+                 piecesOK++
+             };
+        }
+        return piecesOK;
+
+    }
 
 
 }

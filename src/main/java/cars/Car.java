@@ -28,4 +28,6 @@ public class Car {
         return price*(1-(percent/100));
     }
 
+
+
 }

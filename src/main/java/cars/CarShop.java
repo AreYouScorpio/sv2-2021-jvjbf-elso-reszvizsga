@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarShop {
-    String traderName;
-    int maxPrice;
-    List<Car> cars = new ArrayList<>();
+    private String traderName;
+    private int maxPrice;
+    public static List<Car> cars = new ArrayList<>();
+
 
 
     public String getTraderName() {

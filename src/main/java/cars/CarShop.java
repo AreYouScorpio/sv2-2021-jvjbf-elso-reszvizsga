@@ -46,13 +46,13 @@ public class CarShop {
     }
 
     int numberOfCarsCheaperThan(int price){
-        System.out.println("Kérek egy árat: ");
+        // System.out.println("Kérek egy árat: ");
         //Scanner scanner = new Scanner(System.in);
         // int number = scanner.nextInt();
         int piecesOK=0;
         for (int i=0; i<getCarsForSell().size();i++) {
-             if (price < getCarsForSell().get(i).getPrice()) {
-                 piecesOK++
+             if (price > getCarsForSell().get(i).getPrice()) {
+                 piecesOK++;
              };
         }
         return piecesOK;

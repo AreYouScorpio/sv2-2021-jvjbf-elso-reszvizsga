@@ -59,5 +59,13 @@ public class CarShop {
 
     }
 
+    public List<Car> carsWithBrand(String brand){
+        List<Car> result=new ArrayList<>();
+        for (int i=0; i<getCarsForSell().size();i++) {
+            if (getCarsForSell().get(i).getType().equals(brand))
+                result.add(getCarsForSell().get(i));
+        }
+        return result;
+    }
 
 }

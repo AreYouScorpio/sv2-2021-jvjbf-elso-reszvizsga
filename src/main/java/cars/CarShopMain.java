@@ -33,9 +33,9 @@ public static void main(String[] args) {
         System.out.println(carShop.sumCarPrice()); //6270000
         System.out.println(carShop.numberOfCarsCheaperThan(2_000_000)); //1
 
-        // System.out.println(carShop.numberOfCarsCheaperThan(1_000_000)); //0
+        System.out.println(carShop.numberOfCarsCheaperThan(1_000_000)); //0
 
-        // System.out.println(carShop.carsWithBrand("Toyota").size()); //2
+        System.out.println(carShop.carsWithBrand("Toyota").size()); //2
 
         // System.out.println(carShop.carsWithBrand("BMW").size()); //0
 

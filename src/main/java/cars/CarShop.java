@@ -21,6 +21,12 @@ public class CarShop {
         return cars;
     }
 
+    boolean addCar(Car car){
+        return cars.add(car);
+    }
+
+
+
     public CarShop(String traderName, int maxPrice, List<Car> cars) {
         this.traderName = traderName;
         this.maxPrice = maxPrice;

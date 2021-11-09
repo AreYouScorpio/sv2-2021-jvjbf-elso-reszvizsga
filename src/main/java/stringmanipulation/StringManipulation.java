@@ -3,13 +3,11 @@ package stringmanipulation;
 public class StringManipulation {
 
     public String everyEvenCharacter(String s){
-        char[] charsOfWord = s.toCharArray();
-        for (int i=1; i<charsOfWord.length; i+=2) {
-                charsOfWord[i] = 0;
-
-
+        StringBuilder sb=new StringBuilder();
+        for (int i=0; i<s.length(); i+=2) {
+            sb.append(s.charAt(i));
         }
-        String result = new String(charsOfWord);
+        String result = new String(sb);
         return result;
     }
 

@@ -36,6 +36,14 @@ public class CarShop {
         return false;
     }
 
+    int sumCarPrice(){
+        int totalPrice=0;
+        for (int i=0; i<getCarsForSell().size();i++) {
+            totalPrice+= getCarsForSell().get(i);
+        }
+        return totalPrice;
+    }
+
 
 
 }

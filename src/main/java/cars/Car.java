@@ -23,4 +23,9 @@ public class Car {
     public int getPrice() {
         return price;
     }
+
+    public int decreasePrice(int percent) {
+        return price*(1-(percent/100));
+    }
+
 }

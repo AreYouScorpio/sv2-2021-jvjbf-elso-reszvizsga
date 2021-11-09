@@ -16,14 +16,6 @@ public class CarShop {
     }
 
 
-
-
-
-
-
-
-
-
     public String getTraderName() {
         return traderName;
     }
@@ -45,18 +37,5 @@ public class CarShop {
     }
 
 
-
-
-
-    /*public CarShop(String traderName, int maxPrice, List<Car> cars) {
-        this.traderName = traderName;
-        this.maxPrice = maxPrice;
-        this.CarsForSell = cars;
-
-
-
-
-    }
-*/
 
 }

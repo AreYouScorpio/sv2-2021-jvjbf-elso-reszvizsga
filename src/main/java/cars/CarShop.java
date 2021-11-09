@@ -15,7 +15,7 @@ public class CarShop {
         this.maxPrice = maxPrice;
     }
 
-}
+
 
 
 
@@ -48,7 +48,7 @@ public class CarShop {
 
 
 
-    public CarShop(String traderName, int maxPrice, List<Car> cars) {
+    /*public CarShop(String traderName, int maxPrice, List<Car> cars) {
         this.traderName = traderName;
         this.maxPrice = maxPrice;
         this.CarsForSell = cars;
@@ -57,6 +57,6 @@ public class CarShop {
 
 
     }
-
+*/
 
 }

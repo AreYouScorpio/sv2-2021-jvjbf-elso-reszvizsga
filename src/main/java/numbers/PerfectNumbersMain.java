@@ -1,5 +1,6 @@
 package numbers;
 
+
 public class PerfectNumbersMain {
 
     public static void main(String[] args) {
@@ -10,4 +11,6 @@ public class PerfectNumbersMain {
         System.out.println(perfectNumbers.isPerfectNumber(7246)); //false
         System.out.println(perfectNumbers.isPerfectNumber(9)); //false
     }
+
+
 }
